@@ -1,7 +1,7 @@
 interface Product {
   readonly id: number;
   title: string;
-  description?: "Compact and fast";
+  description?: string;
 }
 
 const product: Product = {
